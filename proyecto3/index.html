@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiero donar basura</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            max-width: 100px;
+            border-radius: 50%;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"],
+        input[type="radio"] {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 16px;
+            width: calc(100% - 22px);
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        label {
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .radio-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .radio-group input {
+            width: auto;
+            margin-left: 10px;
+        }
+
+        .form-section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Logo y Nombre de la Empresa -->
+        <div class="form-header" style="display: flex; flex-direction:column; justify-content:center; align-items:center;">
+            <img src="img/logohuellacero.jpg" alt="logohuellacero" width="60px" height="">
+            <h1>Comunidad<span>Huella Cero</span></h1>
+        </div>
+
+        <!-- Formulario -->
+
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfePoNUkLgfsMGbeiwNdMwjYmaiH4lRX6BLG5NGKhQpEDajHQ/viewform?usp=pp_url">
+            <div class="form-section">
+                <label for="input-1">Numero de carnet</label>
+                <input type="text" id="input-1" name="entry.560506672" placeholder="Numero" style="width: 100%;">
+            </div>
+
+            <div class="form-section">
+                <label for="input-2">Menciona que basura vas a donar</label>
+                <input type="text" id="input-2" name="entry.2069474534" placeholder="basura" style="width: 100%;">
+            </div>
+
+            <div class="form-section">
+                <label for="input-3">Direccion para recoger la basura</label>
+                <input type="text" name="ENTRY" id="input-3" style="width: 100%;">
+            </div>
+            <div class="form-section">
+                <label for="input-4">Numero de contacto</label>
+                <input type="text" name="ENTRY" id="input-4" style="width: 100%;">
+            </div>
+
+            <div class="form-section">
+                <label for="input-5">Ciudad</label>
+                <input type="text" name="name" id="input-5" style="width: 100%;">
+            </div>
+            <div class="container" style="display: flex; justify-content:center; align-items:center;">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

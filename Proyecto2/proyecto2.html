@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiero registrar mi Organizacion</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #37e40c;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            max-width: 100px;
+            border-radius: 50%;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"],
+        input[type="radio"] {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 16px;
+            width: calc(100% - 22px);
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        label {
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .radio-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .radio-group input {
+            width: auto;
+            margin-left: 10px;
+        }
+
+        .form-section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Logo y Nombre de la Empresa -->
+        <div class="form-header" style="display: flex; flex-direction:column; justify-content:center; align-items:center;">
+            <img src="img/logohuellacero.jpg" alt="logohuellacero" width="60px" height="">
+            <h1>Comunidad<span>Huella Cero</span></h1>
+        </div>
+
+        <!-- Formulario -->
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSdG58YR2a2BTyRr03k0U2OLdHMHZZlvTAKNy-fER4qxcUrJng/viewform?usp=pp_url">
+           
+            <div class="form-section">
+               <label for="input-2">Nombre de la Organizacion</label>
+               <input type="text" id="Organizacion" name="entry.1450328673" placeholder="Organizacion">
+            </div>
+            <div>
+                <label for="link">Link de alguna red social de tu organización URL:</label>
+                <input type="text" name="url" id="link">
+            </div>
+
+            <div>
+                <label for="link">Sube el logo de tu Organizacion:</label>
+                <input type="file" name="Logo" id="logo">
+            </div>
+            <div class="form-section">
+                <label for="input-2">Numero de contacto del proyecto</label>
+                <input type="text" id="id" name="entry.1309218080" placeholder="Numero">
+            </div>
+            <div class="form-section">
+                <label for="input-1">Nombre de contacto responsable</label>
+                <input type="text" id="Nombre" name="entry.207533947" placeholder="Nombre">
+            </div>
+            <div class="container" style="display: flex; justify-content:center; align-items:center;">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
